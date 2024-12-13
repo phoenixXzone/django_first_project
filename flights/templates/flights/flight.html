@@ -9,15 +9,27 @@
     </ul>
 
     <h2>Passengers</h2>
-
     <ul>
-        <h2>Passengers:</h2>
-        <ul>
-            {% for passenger in passengers %}
-                <li>{{ passenger }}</li>
-            {% empty %}
-                <li>No Passengers.</li>
-            {% endfor %}
-        </ul>
+        {% for passenger in passengers %}
+            <li>{{ passenger }}</li>
+        {% empty %}
+            <li>No passengers yet.</li>
+        {% endfor %}
     </ul>
+
+    <h3>Add Passenger</h3>
+
+    <form action="{% url 'book' flight.id %}" method="post">
+        {% csrf_token %}
+        <select name="passenger" id="passenger-dropdown" style="color: black; background-color: white; padding: 5px;">
+            {% for passenger in non_passengers %}
+                <option value="{{ passenger.id }}" style="color: black; background-color: white;">
+                    {{ passenger }}
+                </option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Add Passenger">
+    </form>
+
+    <a href="{% url 'index' %}">Back to all flights</a>
 {% endblock %}
