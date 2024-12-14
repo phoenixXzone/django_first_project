@@ -1,0 +1,41 @@
+[33mcommit 33bd7f5833ea89b16f6a5f6d08cb59b5fe98bf2c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: phoenixXzone <yusufsalie@gmail.com>
+Date:   Fri Dec 13 22:40:46 2024 +0200
+
+    Fixed passenger dropdown visibility and added styles
+
+[33mcommit ec78abcb30051e9f2bb0ca1a2934594711838ecd[m[33m ([m[1;31morigin/airline[m[33m)[m
+Author: phoenixXzone <yusufsalie@gmail.com>
+Date:   Fri Dec 13 13:57:23 2024 +0200
+
+    Updated flight view and booking functionality
+
+[33mcommit 3517e197418d55c73b5986a48a509eb7afc4a7cb[m
+Author: phoenixXzone <yusufsalie@gmail.com>
+Date:   Fri Dec 13 12:11:03 2024 +0200
+
+    added passengers to admin web
+
+[33mcommit e46559e7d88e1bfe3b6e4f66b652a9ff92779322[m
+Author: phoenixXzone <yusufsalie@gmail.com>
+Date:   Fri Dec 13 10:52:55 2024 +0200
+
+    Added requirements.txt
+
+[33mcommit dc9a996e97f3f01871723194095802b78db4a1b2[m
+Author: phoenixXzone <yusufsalie@gmail.com>
+Date:   Fri Dec 13 09:15:43 2024 +0200
+
+    Update README.md
+
+[33mcommit 9d1e927aa120d65eb19c508e9c6b05ffff5d25a7[m
+Author: Yusuf Salie <yusuf.salie@pwc.com>
+Date:   Thu Dec 12 13:13:05 2024 +0200
+
+    Initial commit of django_first_project
+
+[33mcommit e36ef292525042d1db5a3e19b15e592d9edc5f54[m
+Author: phoenixXzone <yusufsalie@gmail.com>
+Date:   Thu Dec 12 13:11:33 2024 +0200
+
+    Initial commit
